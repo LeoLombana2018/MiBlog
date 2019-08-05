@@ -3,18 +3,36 @@ body
     background: gray ;
     color:black;
     text-align: left;
+<<<<<<< HEAD
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+=======
+    font-family: Arial, Helvetica, sans-serif;   
+>>>>>>> cabecera
     margin: 0;
     padding: 0;
     font-size: 16px;
 }
 
+#cabecera {
+    color: white;
+    background: blue;
+    margin: 0;
+    padding: 0.5em;
+    box-shadow: 12px 9px 15px 1px rgba(0,0,0,1);
+    font-weight: bold;
+}
+
+#cabecera #tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container {
     width: 70%;
-    padding: 1em;
-    text-align: center;
-    border: 1px solid red;
-    width: 500px;
+    padding: 0;
+    text-align: left;
+    border: 1px solid red;   
     margin: auto;
 }
 
